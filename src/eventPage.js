@@ -1,3 +1,5 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-  console.log('browserAction clicked!');
+  chrome.tabs.executeScript({
+    file: 'src/payload.js',
+  });
 });
