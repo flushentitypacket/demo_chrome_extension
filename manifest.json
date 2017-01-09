@@ -13,6 +13,7 @@
     "default_title": "inject overlay"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
 }
